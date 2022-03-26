@@ -1,11 +1,7 @@
 import React from 'react';
 import imgNatur from '../assets/img/react.png';
 import './Questions.css';
-{/*
-     How react works
-                
-    React is a JavaScript library for making user interfaces.React reads objects and uses them to produce HTML elements on the virtual DOM, after which it gets synced with the real DOM. So we'll have trees of objects on the virtual DOM and trees of objects on the real DOM. React automatically updates the associated DOM element when we change data on a React element.In other words react goes through its virtual DOM, creates a list of changes that need to be made to the real DOM and besides does it apiece in one single process.
-*/}
+
 const Questions = () => {
     return (
         <section className='pt-5 pb-5'>

@@ -9,7 +9,7 @@ const productUrl = 'https://raw.githubusercontent.com/farihatulmaria/fake-tour-a
 const Order = () => {
     const [products, setProducts] = useState([]);
     const [cart, setCart] = useState([]);
-    const [index, setIndex] = useState(0)
+    //const [index, setIndex] = useState(0)
 
     useEffect(() => {
       fetch(productUrl)
