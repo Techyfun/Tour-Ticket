@@ -16,7 +16,7 @@ const Cart = (props) => {
                 </div>
                 <div className="col-md-8">
                     <h6>{name}</h6>
-                    <p>{ticketPrice}</p>
+                    <p>{ticketPrice} TK</p>
                 </div>
                 <div className="col-md-2">
                     <button className="deleteItem border-0" onClick={()=>removeCart(id)}><FontAwesomeIcon icon={faTrash}/></button>
